@@ -1,0 +1,272 @@
+/* ===== RESET ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+
+body {
+
+    background: #041b15;
+
+    color: white;
+
+    padding: 20px;
+
+    background-image:
+        radial-gradient(circle at top left,
+            #0b3d2e,
+            #041b15);
+
+}
+
+/* ===== CONTENEDOR ===== */
+
+.contenedor {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    background: rgba(3, 24, 20, 0.95);
+
+    border: 2px solid #00ff9d;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow:
+        0 0 10px #00ff9d,
+        0 0 20px #00ff9d,
+        0 0 40px #00ff9d;
+
+}
+
+/* ===== TITULO ===== */
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    color: #7dffb3;
+
+    font-size: 42px;
+
+    text-shadow:
+        0 0 5px #00ff9d,
+        0 0 15px #00ff9d,
+        0 0 30px #00ff9d;
+
+}
+
+/* ===== SUBTITULOS ===== */
+
+h2 {
+
+    margin-top: 25px;
+
+    margin-bottom: 10px;
+
+    color: #7dffb3;
+
+    text-shadow:
+        0 0 5px #00ff9d;
+
+}
+
+/* ===== PARRAFOS ===== */
+
+p {
+
+    line-height: 1.8;
+
+    color: #d1fae5;
+
+}
+
+/* ===== LISTA ===== */
+
+ul {
+
+    margin-top: 15px;
+
+    margin-left: 20px;
+
+    line-height: 2;
+
+    color: #d1fae5;
+
+}
+
+/* ===== FORMULARIO ===== */
+
+.formulario {
+
+    margin-top: 25px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+/* ===== INPUT ===== */
+
+input,
+select {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    background: #0f2f25;
+
+    color: white;
+
+    border: 2px solid #00ff9d;
+
+    outline: none;
+
+    box-shadow:
+        0 0 5px #00ff9d,
+        0 0 15px #00ff9d;
+
+}
+
+/* ===== BOTON ===== */
+
+button {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #00ff9d;
+
+    color: black;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow:
+        0 0 5px #00ff9d,
+        0 0 20px #00ff9d,
+        0 0 40px #00ff9d;
+
+}
+
+/* ===== HOVER ===== */
+
+button:hover {
+
+    transform: scale(1.05);
+
+}
+
+/* ===== RESULTADO ===== */
+
+#resultado {
+
+    margin-top: 25px;
+
+    background: #0f2f25;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    border: 2px solid #00ff9d;
+
+    box-shadow:
+        0 0 10px #00ff9d;
+
+    line-height: 2;
+
+    font-size: 18px;
+
+}
+
+/* ===== TABLA ===== */
+
+table {
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+
+    border: 1px solid #00ff9d;
+
+    padding: 12px;
+
+    text-align: center;
+
+}
+
+th {
+
+    background: #00ff9d;
+
+    color: black;
+
+}
+
+/* ===== BACTERIAS ===== */
+
+.bacterias {
+
+    font-size: 22px;
+
+    margin-top: 10px;
+
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+
+    margin-top: 40px;
+
+    text-align: center;
+
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:700px) {
+
+    .contenedor {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+}
